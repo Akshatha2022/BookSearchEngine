@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "apollo-server-express": "^2.15.0",
     "bootstrap": "^5.2.3",
     "jwt-decode": "^2.2.0",
     "react": "^16.13.1",
@@ -35,5 +36,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "��#\u0000 \u0000B\u0000o\u0000o\u0000k\u0000S\u0000e\u0000a\u0000r\u0000c\u0000h\u0000E\u0000n\u0000g\u0000i\u0000n\u0000e\u0000\r\u0000 \u0000",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC"
 }
