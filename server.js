@@ -1,10 +1,19 @@
 const express = require('express');
+const { ApolloServer } = require('apollo-server-express');
 const path = require('path');
 const db = require('./config/connection');
-const routes = require('./routes');
+const { typeDefs, resolvers } = require('./schemas');
 
-const app = express();
+
 const PORT = process.env.PORT || 3001;
+const app = express();
+// copying and pasting it after refering to class activity
+
+const server = new ApolloServer({
+  typeDefs,
+  resolvers,
+});
+
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
